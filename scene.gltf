@@ -3,50 +3,50 @@
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 1072,
+      "count": 4692,
       "max": [
-        4.003119945526123,
-        21.635719299316406,
-        1.5497000217437744
+        31.441568374633789,
+        170.42741394042969,
+        11.452944755554199
       ],
       "min": [
-        -4.003119945526123,
-        5.4043102264404297,
-        -2.1692800521850586
+        -31.441568374633789,
+        -0.26744839549064636,
+        -16.847927093505859
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 1,
-      "byteOffset": 12864,
+      "byteOffset": 56304,
       "componentType": 5126,
-      "count": 1072,
+      "count": 4692,
       "max": [
-        0.99942106008529663,
-        0.93703782558441162,
-        0.99967539310455322
+        0.99992239475250244,
+        0.99995255470275879,
+        0.99954652786254883
       ],
       "min": [
-        -0.9982113242149353,
-        -0.93703782558441162,
-        -0.99967539310455322
+        -0.99954366683959961,
+        -0.99995255470275879,
+        -0.99954652786254883
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 1072,
+      "count": 4692,
       "max": [
-        0.99981194734573364,
-        0.98659640550613403,
-        0.99851828813552856,
+        0.99989205598831177,
+        0.99527204036712646,
+        0.99949753284454346,
         1
       ],
       "min": [
-        -0.99981194734573364,
-        -0.98906135559082031,
-        -0.99985611438751221,
+        -0.99989205598831177,
+        -0.99773502349853516,
+        -0.99997490644454956,
         -1
       ],
       "type": "VEC4"
@@ -54,75 +54,9 @@
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 3984,
+      "count": 22512,
       "max": [
-        1071
-      ],
-      "min": [
-        0
-      ],
-      "type": "SCALAR"
-    },
-    {
-      "bufferView": 1,
-      "byteOffset": 25728,
-      "componentType": 5126,
-      "count": 158,
-      "max": [
-        2.6293599605560303,
-        5.503960132598877,
-        1.5582499504089355
-      ],
-      "min": [
-        -2.6293599605560303,
-        -0.033900000154972076,
-        -1.4730099439620972
-      ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 1,
-      "byteOffset": 27624,
-      "componentType": 5126,
-      "count": 158,
-      "max": [
-        0.98427385091781616,
-        0.8991769552230835,
-        0.99542766809463501
-      ],
-      "min": [
-        -0.99493759870529175,
-        -0.8991769552230835,
-        -0.99542766809463501
-      ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 2,
-      "byteOffset": 17152,
-      "componentType": 5126,
-      "count": 158,
-      "max": [
-        0.99750274419784546,
-        0.77417528629302979,
-        0.99762755632400513,
-        1
-      ],
-      "min": [
-        -0.99750274419784546,
-        -0.90979355573654175,
-        -0.99618291854858398,
-        1
-      ],
-      "type": "VEC4"
-    },
-    {
-      "bufferView": 0,
-      "byteOffset": 15936,
-      "componentType": 5125,
-      "count": 516,
-      "max": [
-        157
+        4691
       ],
       "min": [
         0
@@ -137,23 +71,23 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 18000,
+      "byteLength": 90048,
       "byteOffset": 0,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 29520,
-      "byteOffset": 18000,
+      "byteLength": 112608,
+      "byteOffset": 90048,
       "byteStride": 12,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 19680,
-      "byteOffset": 47520,
+      "byteLength": 75072,
+      "byteOffset": 202656,
       "byteStride": 16,
       "name": "floatBufferViews",
       "target": 34962
@@ -161,7 +95,7 @@
   ],
   "buffers": [
     {
-      "byteLength": 67200,
+      "byteLength": 277728,
       "uri": "scene.bin"
     }
   ],
@@ -176,19 +110,19 @@
       "name": "initialShadingGroup",
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          0.5,
-          0.5,
-          0.5,
+          0.80000000000000004,
+          0.80000000000000004,
+          0.80000000000000004,
           1
         ],
         "metallicFactor": 0,
-        "roughnessFactor": 0.59999999999999998
+        "roughnessFactor": 0.94681704099999997
       }
     }
   ],
   "meshes": [
     {
-      "name": "polySurface13 polySurface14_0",
+      "name": "polySurface13_polySurface14_1_2_initialShadingGroup_0",
       "primitives": [
         {
           "attributes": {
@@ -197,21 +131,6 @@
             "TANGENT": 2
           },
           "indices": 3,
-          "material": 0,
-          "mode": 4
-        }
-      ]
-    },
-    {
-      "name": "polySurface11 polySurface12_0",
-      "primitives": [
-        {
-          "attributes": {
-            "NORMAL": 5,
-            "POSITION": 4,
-            "TANGENT": 6
-          },
-          "indices": 7,
           "material": 0,
           "mode": 4
         }
@@ -239,76 +158,71 @@
     },
     {
       "children": [
-        3,
-        6
+        3
       ],
-      "name": "Root"
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "e7da2e8225b142fd8d62ad0443f5f3c0.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
     },
     {
       "children": [
         5
       ],
       "matrix": [
-        0.10000000000000001,
+        1,
         0,
         0,
         0,
         0,
-        -0,
-        0.10000000000000001,
-        0,
-        0,
-        -0.090000000000000024,
-        -0,
+        1,
         0,
         0,
         0,
         0,
-        1
-      ],
-      "name": "polySurface13 polySurface14"
-    },
-    {
-      "mesh": 0,
-      "name": "polySurface13 polySurface14_0"
-    },
-    {
-      "children": [
-        4
-      ],
-      "name": "Geode"
-    },
-    {
-      "children": [
-        8
-      ],
-      "matrix": [
-        0.10000000000000001,
+        1,
         0,
-        0,
-        0,
-        0,
-        -0,
-        0.10000000000000001,
-        0,
-        0,
-        -0.10000000000000001,
-        -0,
-        0,
-        0,
+        -76.571365356445312,
         0,
         0,
         1
       ],
-      "name": "polySurface11 polySurface12"
-    },
-    {
-      "mesh": 1,
-      "name": "polySurface11 polySurface12_0"
+      "name": "Subdivision_Surface_1"
     },
     {
       "children": [
         7
+      ],
+      "name": "polySurface13_polySurface14_1_2"
+    },
+    {
+      "mesh": 0,
+      "name": "polySurface13_polySurface14_1_2_initialShadingGroup_0"
+    },
+    {
+      "children": [
+        6
       ],
       "name": "Geode"
     }
